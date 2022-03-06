@@ -1,0 +1,95 @@
+body {
+  background-color: #888;
+}
+
+div.consultation {
+  padding: 30px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+li.nav-item {
+  font-size: 25px;
+}
+
+/* Parallax */
+.parallax {
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textMotivation span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 5px;
+  font-size: 25px;
+  border: 0px !important;
+}
+
+.textMotivation {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  opacity: 0.8;
+}
+
+/* Title */
+.title{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  text-align: center;
+}
+
+.title-text {
+  margin: 70px 10px 10px 10px;
+}
+
+.btn-book {
+  margin: 10px 240px 10px 240px;
+}
+
+div.musc {
+  text-align: center;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 60%;
+}
